@@ -1,0 +1,89 @@
+baseURL: "https://mostafaayesh.com/"
+languageCode: "en-us"
+title: "Mostafa Ayesh"
+theme: "papermod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: "G-1XTMVKW46Z"
+
+pluralizeListTitles: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Home"
+  # author: Me
+  defaultTheme: auto
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  TocSide: 'left'
+  EnableInstantClick: false
+
+  label:
+    text: "Mostafa Ayesh"
+    
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Mostafa Ayesh"
+    Content: >
+      **Software Engineering MASc.** candidate at **McMaster University**
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/MostafaAyesh"
+    - name: linkedin
+      url: "https://ca.linkedin.com/in/mostafaayesh"
+    - name: email
+      url: "mailto:mostafaayesh@outlook.com"
+
+  analytics:
+    google:
+      SiteVerificationTag: "ZGzXvZLU9vcBWZGwT4wH9wkYdhE1eG2sqYXTt2pD5Is"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+  
+  assets:
+    disableFingerprinting: true
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: resume
+      name: Resume
+      url: /resume
+      weight: 20
+
+pygmentsUseClasses: true
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
