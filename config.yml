@@ -48,7 +48,7 @@ params:
   homeInfoParams:
     Title: "Mostafa Ayesh"
     Content: >
-      **Software Engineering MASc.** candidate at **McMaster University**
+      **Embedded Systems Developer**
 
   socialIcons:
     - name: github
