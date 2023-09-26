@@ -39,6 +39,7 @@ params:
   tocopen: false
   TocSide: 'left'
   EnableInstantClick: false
+  hideFooter: true
 
   label:
     text: "Mostafa Ayesh"
